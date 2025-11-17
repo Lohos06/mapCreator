@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header, main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem;
+}
+
+#map {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    width: 90%;
+}
